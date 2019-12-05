@@ -1,0 +1,109 @@
+{%  load staticfiles %}
+{% if request.session.status %}
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Agentreistration</title>
+</head>
+<body style="background-color: azure">
+{#<table align="center">#}
+{#    <tr>#}
+{#        <th>#}
+{#            {% include 'os_main_template/main_title.html' %}#}
+{#        </th>#}
+{#    </tr>#}
+{#</table>#}
+<table align="center">
+    <tr>
+        <th>
+            {% include 'os_admin_template/os_admin_menu.html' %}
+        </th>
+    </tr>
+</table>
+{#<table align="center" border="3" width="850">#}
+{#    <tr align="center">#}
+{#        <th bgcolor="#ffe4c4" width="100" height="50">#}
+{##}
+{#            <a href="">HOME</a></th>#}
+{##}
+{#        <th bgcolor="#7fffd4" width="100" height="50">#}
+{##}
+{#            <a href="/osadmin/agentregister/">AGENT</a></th>#}
+{##}
+{#        <th bgcolor="#ffe4c4" width="100" height="50">#}
+{#            <a href="">CLIENT</a>  </th>#}
+{##}
+{#        <th bgcolor="#7fffd4" width="100" height="50">#}
+{#            <a href=""> PROPERTY</a></th>#}
+{##}
+{#        <th bgcolor="#ffe4c4" width="120" height="50">#}
+{#            <a href="/osadmin/adminlogout/">LOGOUT</a></th>#}
+{#    </tr>#}
+{#</table>#}
+{% if request.session.status %}
+<table align="center" border="3">
+<tr><th>
+    <form action="/osadmin/agentsave/" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+    <table align="center" border="0" bgcolor="#808080">
+        <tr align="center"><th colspan="2"> AGENT REGISTATION</th></tr>
+        <tr><th><input class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" style="background-color: lightgray" type="number" placeholder="NO" required name="agent_no"></th></tr>
+        <tr><th><input class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" style="background-color: lightgray" type="text" placeholder="NAME" required name="agent_name"></th></tr>
+        <tr><th><textarea maxlength="300" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"textarea style="background-color: lightgray" typeof="text"  placeholder="ADDRESS" required name="agent_address"></textarea></th></tr>
+        <tr><th><input class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" style="background-color:lightgray"  type="text" placeholder="USERNAME" required name="agent_username"></th></tr>
+        <tr><th><input class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" style="background-color: lightgray"  type="password" placeholder="PASSWORD" required name="agent_password"></th></tr>
+        <tr><th><input class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"  style="background-color: lightgray" type="number" placeholder="CONTACT NO" required maxlength="10" name="agent_contact"></th></tr>
+        <tr><th>Photo<input type="file" name="photo"></th></tr>
+        <tr align="center"><th><button type="submit" class="btn btn-primary">SAVE</button></th></tr>
+    </table>
+        </form>
+</th>
+<th>
+
+    {% for x in data %}
+
+<table bgcolor=#adff2f align="center" border="3">
+    <tr><th>IDNO :{{ x.no }}</th><th rowspan="7"><img src="{{ x.image.url }}" width="200" height="200"></th></tr>
+    <tr><th>NAME :{{x.name}}</th></tr>
+    <tr><th>USERNAME :{{ x.agent_un }}</th></tr>
+    <tr><th>PASSWORD :{{ x.agent_pwd }}</th></tr>
+    <tr><th>CONTACT :{{ x.contactno }}</th></tr>
+    <tr><th>ADDRESS :{{ x.address }}</th></tr>
+    <tr align="center">
+        <th>
+            <a href="/osadmin/agentdelete/?idno={{ x.no }}"><button type="submit" style="color: green">Delete</button> </a>
+        </th>
+
+        <th>
+            <form action="/osadmin/agentupdate/" method="post" >
+                {% csrf_token %}
+
+        <input type="hidden" value="{{ x.no}}" name="up_id" >
+        <input type="submit" value="Update">
+            </form>
+    </tr>
+</table>
+    {% endfor %}
+</th></tr>
+
+
+{% else %}
+<h2> Please Login........!</h2>
+{% endif %}
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+{% else %}
+    <h1>Please login again your session is expired.</h1>
+{% endif %}

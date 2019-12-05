@@ -1,0 +1,40 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<table align="center" border="0">
+    <tr>
+        <th>
+            {% include 'os_main_template/main_title.html' %}
+        </th>
+    <tr>
+</tr>
+</table>
+
+        <table align="center">
+            <tr>
+                 <th width="130" height="30" bgcolor="#ff8c00"><a href="/osadmin/mainhome/" >HOME</a></th>
+
+                 <th width="130"  bgcolor="#ff8c00">
+                 <a href="/osadmin/agentregister/">AGENT</a>
+                  </th>
+
+                  <th width="130"  bgcolor="#ff8c00">
+                      <a href="/osadmin/client/">CLIENT</a>
+                  </th>
+                  <th width="130"  bgcolor="#ff8c00">
+                      <a href="/osadmin/propertyall/">PROPERTY</a>
+                  </th>
+                  <th width="130"  bgcolor="#ff8c00">
+                       <a href="/osadmin/adminlogout/">LOGOUT</a>
+                  </th>
+    </tr>
+    </table>
+</body>
+</html>
+

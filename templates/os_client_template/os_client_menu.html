@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>client Menu</title>
+</head>
+<body>
+        <table align="center" border="0" style="text-align: center">
+            <tr>
+                <th width="130"  HEIGHT="30" bgcolor="#8a2be2" style="text-align: center">
+
+                  <a href="/osclient/clienthome/">
+                    HOME
+                  </a>
+                </th>
+                <th width="130" bgcolor="#663399">
+{#                    <a href="{% url 'osadmin:adminhome' %}">#}
+                    <a href="/osclient/viewproperty/">
+                        Property
+                    </a>
+                </th>
+                <th width="130" bgcolor="#00ffff">
+                    <a href="/osclient/blocked/">
+                        Blocked
+                    </a>
+                </th>
+                <th width="130" bgcolor="#663399">
+                    <a href="/osclient/complaint/">
+                    COMPLAINT
+                    </a></th>
+               <th width="130" bgcolor="#e6e6fa">
+                    <a href="/osclient/clienthome/">
+                    LOGOUT
+                        <h6 style="color: red">{{ request.session.username }}</h6>
+                    </a></th>
+
+            </tr>
+            </tr>
+        </table>
+</body>
+</html>

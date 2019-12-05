@@ -1,0 +1,112 @@
+{% load staticfiles %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body><!DOCTYPE html>
+  <tr>
+            <th>
+                 {% include 'os_main_template/main_title.html' %}
+            </th>
+        </tr>
+  <tr>
+            <th>
+                 {% include 'os_main_template/main_menu.html' %}
+            </th>
+        </tr>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+.mySlides {display: none}
+</style>
+<body class="w3-content w3-border-left w3-border-right">
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <span class="w3-bar-item">Rental</span>
+  <a href="javascript:void(0)" class="w3-right w3-bar-item w3-button" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-white" style="margin-left:260px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:80px"></div>
+
+  <!-- Slideshow Header -->
+  <div class="w3-container" id="apartment">
+      <img src="{% static 'images/icon3.jfif' %}" style="width:10%;margin-bottom:-6px">
+
+    <h1 style="color: red" class="w3-text-green">Online Sales</h1>
+    <div class="w3-display-container mySlides">
+
+    </div>
+
+
+{#    <hr>#}
+{##}
+{#    <h4><strong>Extra Info</strong></h4>#}
+{#    <p>Our apartment is really clean and we like to keep it that way. Enjoy the lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>#}
+{#    <p>We accept: <i class="fa fa-credit-card w3-large"></i> <i class="fa fa-cc-mastercard w3-large"></i> <i class="fa fa-cc-amex w3-large"></i> <i class="fa fa-cc-cc-visa w3-large"></i><i class="fa fa-cc-paypal w3-large"></i></p>#}
+{#    <hr>#}
+{##}
+{#    <h4><strong>Rules</strong></h4>#}
+{#    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>#}
+{#    <p>Subscribe to receive updates on available dates and special offers.</p>#}
+{#    <p><button class="w3-button w3-green w3-third" onclick="document.getElementById('subscribe').style.display='block'">Subscribe</button></p>#}
+{#  </div>#}
+{#  <hr>#}
+
+  <!-- Contact -->
+  <div class="w3-container" id="contact">
+    <h2>Contact</h2>
+    <i class="fa fa-map-marker" style="width:30px"></i> Hdrabad,Telangana<br>
+    <i class="fa fa-phone" style="width:30px"></i> Phone: +040 225620<br>
+    <i class="fa fa-envelope" style="width:30px"> </i> Email: onlinrsales@mail.com<br>
+    <p>Questions? Go ahead, ask them:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+    <button type="submit" class="w3-button w3-green w3-third">Send a Message</button>
+    </form>
+  </div>
+
+  <footer  class="w3-container w3-padding-16" style="margin-top:32px" >Visit Again... <a href="" >@copyright2019</a></footer>
+
+<!-- End page content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom w3-padding-large">
+    <div class="w3-container w3-white w3-center">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-button w3-xlarge w3-right w3-transparent"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join our mailing list to receive updates on available dates and special offers.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-padding-large w3-green w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</div></body>
+</html>

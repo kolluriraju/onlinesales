@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93f0318c-8139-429c-bc78-d0e3ece260ff" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="onlinesales" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="onlinesales" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="onlinesales" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>status</find>
+      <find>logout</find>
+    </findStrings>
+  </component>
+  <component name="ProjectId" id="1PrHaKD9YtjMXMPkd7dAyQSuW8a" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/os_main/js" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DJANGO\my django projects\liveproject\onlinesales\templates\os_admin_template" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DJANGO\my django projects\liveproject\onlinesales\os_main\js" />
+      <recent name="D:\DJANGO\my django projects\liveproject\onlinesales\os_main\static\images" />
+      <recent name="D:\DJANGO\my django projects\liveproject\onlinesales\templates\os_admin_template" />
+      <recent name="D:\DJANGO\my django projects\liveproject\onlinesales\templates\os_agent-template" />
+      <recent name="D:\DJANGO\my django projects\liveproject\onlinesales\templates\os_client_template" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.onlinesales">
+    <configuration name="about us,,.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/onlinesales/templates/os_main_template/about us,,.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="aboutus.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/onlinesales/templates/os_main_template/aboutus.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="home page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/onlinesales/templates/os_main_template/home page.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="os_admin_home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/onlinesales/templates/os_admin_template/os_admin_home.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="os_client_complaint.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/onlinesales/templates/os_client_template/os_client_complaint.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="onlinesales" type="Python.DjangoServer" factoryName="Django server">
+      <module name="onlinesales" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="onlinesales.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.os_client_complaint.html" />
+        <item itemvalue="JavaScript Debug.aboutus.html" />
+        <item itemvalue="JavaScript Debug.home page.html" />
+        <item itemvalue="JavaScript Debug.os_admin_home.html" />
+        <item itemvalue="JavaScript Debug.about us,,.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ac66daba" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ac66daba" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@168ebd7f" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ac66daba" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@391eb07d" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93f0318c-8139-429c-bc78-d0e3ece260ff" name="Default Changelist" comment="" />
+      <created>1558028125861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558028125861</updated>
+      <workItem from="1558028257361" duration="2972000" />
+      <workItem from="1558054796628" duration="503000" />
+      <workItem from="1558069217099" duration="2313000" />
+      <workItem from="1558085776169" duration="6501000" />
+      <workItem from="1558149708713" duration="8310000" />
+      <workItem from="1558171275860" duration="1934000" />
+      <workItem from="1558443013042" duration="9714000" />
+      <workItem from="1558531368902" duration="5778000" />
+      <workItem from="1558543225963" duration="976000" />
+      <workItem from="1558701755620" duration="6496000" />
+      <workItem from="1558708902778" duration="3266000" />
+      <workItem from="1558791867358" duration="13926000" />
+      <workItem from="1558947969320" duration="15192000" />
+      <workItem from="1559010373318" duration="5760000" />
+      <workItem from="1559020481427" duration="12542000" />
+      <workItem from="1559055627180" duration="1207000" />
+      <workItem from="1559059600948" duration="4037000" />
+      <workItem from="1559141126969" duration="9249000" />
+      <workItem from="1559357934497" duration="1087000" />
+      <workItem from="1559826326702" duration="14893000" />
+      <workItem from="1559872580358" duration="12617000" />
+      <workItem from="1559887298848" duration="26841000" />
+      <workItem from="1559969610428" duration="7665000" />
+      <workItem from="1560057135817" duration="17869000" />
+      <workItem from="1560082232381" duration="606000" />
+      <workItem from="1560083078118" duration="912000" />
+      <workItem from="1560152067972" duration="613000" />
+      <workItem from="1560522127024" duration="3044000" />
+      <workItem from="1560659868158" duration="13311000" />
+      <workItem from="1560746839331" duration="655000" />
+      <workItem from="1560747665669" duration="2548000" />
+      <workItem from="1563446019053" duration="920000" />
+      <workItem from="1563468120600" duration="1020000" />
+      <workItem from="1563504006823" duration="1492000" />
+      <workItem from="1564741441513" duration="1294000" />
+      <workItem from="1564808105977" duration="409000" />
+      <workItem from="1566625385022" duration="4208000" />
+      <workItem from="1566634422312" duration="3641000" />
+      <workItem from="1566638436302" duration="1161000" />
+      <workItem from="1566640598707" duration="1133000" />
+      <workItem from="1566642644592" duration="1226000" />
+      <workItem from="1566714494592" duration="3032000" />
+      <workItem from="1567141374583" duration="2285000" />
+      <workItem from="1567159129415" duration="822000" />
+      <workItem from="1567314932128" duration="3136000" />
+      <workItem from="1567874678495" duration="640000" />
+      <workItem from="1567902443024" duration="630000" />
+      <workItem from="1569223586139" duration="1811000" />
+      <workItem from="1569234260580" duration="898000" />
+      <workItem from="1574315850409" duration="968000" />
+      <workItem from="1574318209467" duration="3548000" />
+      <workItem from="1574618630092" duration="9364000" />
+      <workItem from="1574699407670" duration="1066000" />
+      <workItem from="1575274990199" duration="3340000" />
+      <workItem from="1575369393906" duration="978000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__templates_os_agent-template - 2019.05.18 at 09h 52m 34s.xml">
+      <configuration name="Test: templates.os_agent-template" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__templates_os_agent-template - 2019.05.18 at 09h 54m 05s.xml">
+      <configuration name="Test: templates.os_agent-template" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__templates_os_agent-template - 2019.05.18 at 10h 02m 35s.xml">
+      <configuration name="Test: templates.os_agent-template" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/onlinesales$Test__templates_os_agent_template.coverage" NAME="Test: templates.os_agent-template Coverage Results" MODIFIED="1558153951873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>

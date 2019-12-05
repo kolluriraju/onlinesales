@@ -1,0 +1,64 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<table align="center" border="0">
+    <tr>
+        <th>
+            {% include 'os_main_template/main_title.html' %}
+        </th>
+    <tr>
+</tr>
+</table>
+
+        <table align="center">
+            <tr>
+                 <th width="130" height="30" bgcolor="#ff8c00"><a href="" >HOME</a></th>
+
+                 <th width="130"  bgcolor="#ff8c00">
+                 <a href="/osadmin/agentregister/">AGENT</a>
+                  </th>
+
+                  <th width="130"  bgcolor="#ff8c00">
+                      <a href="">CLIENT</a>
+                  </th>
+                  <th width="130"  bgcolor="#ff8c00">
+                      <a href="">Property</a>
+                  </th>
+                  <th width="130"  bgcolor="#ff8c00">
+                       <a href="/osadmin/adminlogout/">Logout</a>
+                  </th>
+    </tr>
+    </table>
+                   <table>
+                       <tr>
+                           <th>
+                               <form action="/osadmin/agentsave/" method="post" enctype="multipart/form-data">
+                               {% csrf_token %}
+
+                                   <fieldset style="width: 100px ; background-color: peru; border: white" >
+
+                                 <legend>Update agent Details</legend>
+                                                                   <br>
+                                                                   <br>
+                                   <input type="number" value="{{ data.no }}" name="agent_no" required ><br>
+                                   <input type="text" value="{{ data.name }}" name="agent_name" required ><br>
+                                   <input type="text" value="{{ data.age_uname }}" name="agent_username" required ><br>
+                                   <input type="password" value="{{ data.password }}" name="agent_password" required ><br>
+                                   <input type="text"   value="{{ data.address }}" name="agent_address"required > <br>
+                                       <input type="number"   value="{{ data.c_no }}" name="agent_contact"required > <br>
+                                    <input type="file"   value="{{ data.image.url }}" name="photo"> <br> <br>
+
+                                        <input type="submit" value="Click to Update"> <br>
+                                     </fieldset>
+
+                               </form>
+                                   </table>
+</body>
+</html>
+
